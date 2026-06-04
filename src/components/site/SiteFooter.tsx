@@ -9,11 +9,14 @@ export default function SiteFooter() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-10">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <img src={logoImg} alt="Igreja Vida na Rocha" className="h-16 w-auto brightness-0 invert" />
+              <img src={logoImg} alt="Igreja Vida na Rocha" className="h-14 w-auto logo-on-dark" />
             </div>
-            <p className="text-sm opacity-70 leading-relaxed">
-              Uma igreja que acolhe, transforma e conecta vidas através do amor de Deus. 
-              Sob a liderança pastoral de Bispo Leandro Zangarini.
+            <p className="font-quote text-base opacity-80 leading-relaxed mb-2">
+              "Edificarei a minha igreja, e as portas do inferno não prevalecerão contra ela."
+            </p>
+            <p className="text-xs opacity-60">Mateus 16:18</p>
+            <p className="text-sm opacity-70 leading-relaxed mt-4">
+              Uma comunidade firmada na Rocha que é Cristo, pastoreada pelo Bispo Leandro Zangarini.
             </p>
             <div className="flex gap-3 mt-5">
               <a href="#" className="p-2 rounded-full bg-primary/20 hover:bg-primary/30 transition-colors">
