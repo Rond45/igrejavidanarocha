@@ -1,6 +1,6 @@
 import { Outlet, Link, useLocation } from "react-router-dom";
 import { Home, BookOpen, Play, Calendar, Heart, Users, HandHeart, Gift, Bell, User } from "lucide-react";
-import logoImg from "@/assets/logo-familia-videira-gold.png";
+import logoImg from "@/assets/logo-vida-na-rocha-color.png";
 
 const tabs = [
   { icon: Home, label: "Início", path: "/app" },
@@ -28,7 +28,7 @@ export default function AppLayout() {
       <header className="sticky top-0 z-50 bg-card/95 backdrop-blur-md border-b border-border px-3 sm:px-4 py-3 grid grid-cols-3 items-center">
         <div>{/* spacer */}</div>
         <Link to="/" className="flex items-center justify-center">
-          <img src={logoImg} alt="Família Videira" className="h-12 w-auto object-contain" />
+          <img src={logoImg} alt="Igreja Vida na Rocha" className="h-12 w-auto object-contain" />
         </Link>
         <div className="flex justify-end">
           <Link to="/app/avisos" className="relative p-2">

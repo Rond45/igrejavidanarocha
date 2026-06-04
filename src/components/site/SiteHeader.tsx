@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Smartphone } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logoImg from "@/assets/logo-familia-videira-gold.png";
+import logoImg from "@/assets/logo-vida-na-rocha-color.png";
 
 const navLinks = [
   { label: "Início", path: "/" },
@@ -24,7 +24,7 @@ export default function SiteHeader() {
     <header className="sticky top-0 z-50 bg-card/95 backdrop-blur-md border-b border-border">
       <div className="container-site flex items-center justify-between h-16 md:h-20">
         <Link to="/" className="flex items-center gap-2 shrink-0">
-          <img src={logoImg} alt="Família Videira" className="h-14 md:h-16 w-auto object-contain" />
+          <img src={logoImg} alt="Igreja Vida na Rocha" className="h-14 md:h-16 w-auto object-contain" />
         </Link>
 
         <nav className="hidden lg:flex items-center gap-0.5 xl:gap-1">

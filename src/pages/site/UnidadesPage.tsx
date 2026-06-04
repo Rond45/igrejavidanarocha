@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 
 const units = [
-  { name: "Unidade Central", address: "Rua da Igreja, 100 — Centro", leader: "Pr. Marcelo Barcellos", phone: "(00) 00000-0000", times: "Dom 10h e 18h | Qua 19h30 | Sex 20h" },
+  { name: "Unidade Central", address: "Rua da Igreja, 100 — Centro", leader: "Bispo Leandro Zangarini", phone: "(00) 00000-0000", times: "Dom 10h e 18h | Qua 19h30 | Sex 20h" },
   { name: "Unidade Norte", address: "Av. Brasil, 500 — Zona Norte", leader: "Líder João Oliveira", phone: "(00) 00000-0001", times: "Dom 10h e 18h | Qua 19h30" },
   { name: "Unidade Leste", address: "Rua das Flores, 250 — Zona Leste", leader: "Líder Marcos Costa", phone: "(00) 00000-0002", times: "Dom 10h e 18h | Qui 19h30" },
 ];

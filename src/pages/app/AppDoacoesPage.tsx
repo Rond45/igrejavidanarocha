@@ -28,7 +28,7 @@ export default function AppDoacoesPage() {
       </div>
       <Card className="border-border">
         <CardContent className="p-4 text-center">
-          <p className="text-xs text-muted-foreground">PIX: contato@familiavideira.com</p>
+          <p className="text-xs text-muted-foreground">PIX: contato@vidanarocha.com</p>
         </CardContent>
       </Card>
     </div>

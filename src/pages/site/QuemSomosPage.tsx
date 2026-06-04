@@ -7,7 +7,7 @@ export default function QuemSomosPage() {
         <div className="container-site text-center max-w-3xl mx-auto">
           <h1 className="font-display text-4xl md:text-5xl font-bold mb-6">Quem Somos</h1>
           <p className="text-lg opacity-80">
-            Conheça a história, a identidade e o coração da Família Videira.
+            Conheça a história, a identidade e o coração da Igreja Vida na Rocha.
           </p>
         </div>
       </section>
@@ -16,9 +16,9 @@ export default function QuemSomosPage() {
         <div className="container-site max-w-3xl mx-auto">
           <h2 className="font-display text-3xl font-bold text-foreground mb-6">Nossa História</h2>
           <div className="space-y-4 text-muted-foreground leading-relaxed">
-            <p>A Família Videira nasceu do desejo de construir uma igreja que fosse verdadeiramente uma família — um lugar onde pessoas de todas as origens pudessem encontrar acolhimento, propósito e transformação.</p>
-            <p>Sob a liderança do Pr. Marcelo Barcellos, a igreja cresceu fundamentada na Palavra de Deus, no cuidado pastoral genuíno e na visão de discipulado que gera discipuladores.</p>
-            <p>Hoje, a Família Videira é uma comunidade vibrante de fé, comprometida com a expansão do Reino de Deus e com o cuidado integral de cada pessoa.</p>
+            <p>A Igreja Vida na Rocha nasceu do desejo de construir uma igreja que fosse verdadeiramente uma família — um lugar onde pessoas de todas as origens pudessem encontrar acolhimento, propósito e transformação.</p>
+            <p>Sob a liderança do Bispo Leandro Zangarini, a igreja cresceu fundamentada na Palavra de Deus, no cuidado pastoral genuíno e na visão de discipulado que gera discipuladores.</p>
+            <p>Hoje, a Igreja Vida na Rocha é uma comunidade vibrante de fé, comprometida com a expansão do Reino de Deus e com o cuidado integral de cada pessoa.</p>
           </div>
         </div>
       </section>

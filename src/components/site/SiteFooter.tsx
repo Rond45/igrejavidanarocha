@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Heart, Instagram, Facebook, Youtube, MapPin, Phone, Mail } from "lucide-react";
-import logoImg from "@/assets/logo-familia-videira.png";
+import logoImg from "@/assets/logo-vida-na-rocha-color.png";
 
 export default function SiteFooter() {
   return (
@@ -9,11 +9,14 @@ export default function SiteFooter() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-10">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <img src={logoImg} alt="Família Videira" className="h-16 w-auto brightness-0 invert" />
+              <img src={logoImg} alt="Igreja Vida na Rocha" className="h-14 w-auto logo-on-dark" />
             </div>
-            <p className="text-sm opacity-70 leading-relaxed">
-              Uma igreja que acolhe, transforma e conecta vidas através do amor de Deus. 
-              Sob a liderança pastoral de Pr. Marcelo Barcellos.
+            <p className="font-quote text-base opacity-80 leading-relaxed mb-2">
+              "Edificarei a minha igreja, e as portas do inferno não prevalecerão contra ela."
+            </p>
+            <p className="text-xs opacity-60">Mateus 16:18</p>
+            <p className="text-sm opacity-70 leading-relaxed mt-4">
+              Uma comunidade firmada na Rocha que é Cristo, pastoreada pelo Bispo Leandro Zangarini.
             </p>
             <div className="flex gap-3 mt-5">
               <a href="#" className="p-2 rounded-full bg-primary/20 hover:bg-primary/30 transition-colors">
@@ -63,14 +66,14 @@ export default function SiteFooter() {
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4 shrink-0" />
-                <span className="break-all">contato@familiavideira.com</span>
+                <span className="break-all">contato@vidanarocha.com</span>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-background/10 mt-10 md:mt-12 pt-6 md:pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs opacity-50">
-          <p>© {new Date().getFullYear()} Família Videira. Todos os direitos reservados.</p>
+          <p>© {new Date().getFullYear()} Igreja Vida na Rocha. Todos os direitos reservados.</p>
           <p className="flex items-center gap-1">
             Feito com <Heart className="h-3 w-3 text-destructive" /> para a glória de Deus
           </p>

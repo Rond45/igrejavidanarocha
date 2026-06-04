@@ -22,7 +22,7 @@ export default function BaixeAppPage() {
                 A igreja na palma da sua mão
               </h1>
               <p className="text-lg opacity-80 mb-8">
-                Baixe o app da Família Videira e leve a igreja com você para onde for. 
+                Baixe o app da Igreja Vida na Rocha e leve a igreja com você para onde for. 
                 Devocionais, mensagens, agenda, oração e muito mais.
               </p>
               <div className="flex gap-3">

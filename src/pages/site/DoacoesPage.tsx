@@ -43,7 +43,7 @@ export default function DoacoesPage() {
                 <p><strong>Agência:</strong> 0001</p>
                 <p><strong>Conta:</strong> 00000-0</p>
                 <p><strong>CNPJ:</strong> 00.000.000/0001-00</p>
-                <p><strong>PIX:</strong> contato@familiavideira.com</p>
+                <p><strong>PIX:</strong> contato@vidanarocha.com</p>
               </div>
               <p className="text-xs text-muted-foreground mt-6">
                 Integração com pagamentos online em breve disponível.

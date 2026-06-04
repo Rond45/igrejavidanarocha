@@ -3,12 +3,12 @@ import { Play, BookOpen, Filter } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const messages = [
-  { title: "A Videira e os Ramos", speaker: "Pr. Marcelo Barcellos", date: "30 Mar 2026", type: "Mensagem", category: "Vida Cristã" },
-  { title: "O Poder da Comunhão", speaker: "Pr. Marcelo Barcellos", date: "23 Mar 2026", type: "Mensagem", category: "Igreja" },
-  { title: "Força na Jornada", speaker: "Pra. Ana Barcellos", date: "28 Mar 2026", type: "Devocional", category: "Encorajamento" },
-  { title: "Fé que Move Montanhas", speaker: "Pr. Marcelo Barcellos", date: "16 Mar 2026", type: "Mensagem", category: "Fé" },
-  { title: "O Jardim do Coração", speaker: "Pra. Ana Barcellos", date: "25 Mar 2026", type: "Devocional", category: "Vida Interior" },
-  { title: "Família: Projeto de Deus", speaker: "Pr. Marcelo Barcellos", date: "9 Mar 2026", type: "Mensagem", category: "Família" },
+  { title: "A Videira e os Ramos", speaker: "Bispo Leandro Zangarini", date: "30 Mar 2026", type: "Mensagem", category: "Vida Cristã" },
+  { title: "O Poder da Comunhão", speaker: "Bispo Leandro Zangarini", date: "23 Mar 2026", type: "Mensagem", category: "Igreja" },
+  { title: "Força na Jornada", speaker: "Pra. Daniela Zangarini", date: "28 Mar 2026", type: "Devocional", category: "Encorajamento" },
+  { title: "Fé que Move Montanhas", speaker: "Bispo Leandro Zangarini", date: "16 Mar 2026", type: "Mensagem", category: "Fé" },
+  { title: "O Jardim do Coração", speaker: "Pra. Daniela Zangarini", date: "25 Mar 2026", type: "Devocional", category: "Vida Interior" },
+  { title: "Família: Projeto de Deus", speaker: "Bispo Leandro Zangarini", date: "9 Mar 2026", type: "Mensagem", category: "Família" },
 ];
 
 export default function MensagensPage() {

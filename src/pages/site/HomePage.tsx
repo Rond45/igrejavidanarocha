@@ -8,7 +8,7 @@ import {
   BookOpen, HandHeart, Shield, Flame, Star, Instagram, Facebook, Youtube
 } from "lucide-react";
 import heroImg from "@/assets/hero-worship.jpg";
-import pastorImg from "@/assets/pastor-marcelo.png";
+import pastorImg from "@/assets/bispo-leandro.jpg";
 
 const ministries = [
   { icon: Baby, name: "Crianças", desc: "Ministério infantil com amor e cuidado" },
@@ -39,12 +39,16 @@ export default function HomePage() {
         </div>
         <div className="relative container-site py-16 md:py-20">
           <div className="max-w-2xl">
-            <h1 className="font-display text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-card leading-tight mb-4 md:mb-6">
-              Onde vidas são <span className="italic text-secondary">transformadas</span> pelo amor
+            <span className="inline-block px-3 py-1 rounded-full border border-card/30 text-card/80 text-xs uppercase tracking-[0.25em] mb-5">
+              Mateus 7:24
+            </span>
+            <h1 className="font-display uppercase text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-card leading-[1.05] mb-5 md:mb-7">
+              Firmados na <span className="font-quote normal-case italic font-medium text-secondary">Rocha</span><br />
+              que é Cristo
             </h1>
-            <p className="text-base md:text-xl text-card/80 mb-6 md:mb-8 leading-relaxed font-body">
-              Somos uma família de fé, acolhimento e propósito. Venha viver a experiência de uma igreja 
-              que cuida, ensina e transforma.
+            <p className="text-base md:text-xl text-card/85 mb-6 md:mb-8 leading-relaxed font-body max-w-xl">
+              "Todo aquele que ouve as minhas palavras e as pratica será comparado a um homem prudente
+              que edificou a sua casa sobre a rocha." Venha viver uma fé que não se abala.
             </p>
             <div className="flex flex-wrap gap-2 sm:gap-3">
               <Link to="/cultos">
@@ -72,16 +76,28 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* IDENTIDADE */}
-      <section className="section-padding bg-card">
+      {/* VERSÍCULO INSPIRADOR */}
+      <section className="section-padding bg-card border-y border-border">
         <div className="container-site text-center max-w-3xl mx-auto">
-          <h2 className="font-display text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-4 md:mb-6">
-            Uma família conectada <span className="italic text-primary">pela fé</span>
+          <p className="text-xs uppercase tracking-[0.3em] text-accent font-semibold mb-5">A Palavra que nos sustenta</p>
+          <p className="font-quote text-2xl md:text-4xl text-foreground leading-snug mb-4">
+            "O Senhor é a minha rocha, a minha fortaleza e o meu libertador;
+            o meu Deus, o meu rochedo, em quem me refugio."
+          </p>
+          <p className="text-sm font-display uppercase tracking-widest text-muted-foreground">Salmos 18:2</p>
+        </div>
+      </section>
+
+      {/* IDENTIDADE */}
+      <section className="section-padding bg-paper">
+        <div className="container-site text-center max-w-3xl mx-auto">
+          <h2 className="font-display uppercase text-3xl sm:text-4xl md:text-5xl font-bold text-foreground mb-5 md:mb-7">
+            Uma igreja edificada <span className="font-quote normal-case italic font-medium text-primary">na Rocha</span>
           </h2>
           <p className="text-muted-foreground leading-relaxed text-base md:text-lg">
-            A Família Videira é mais do que uma igreja — é um lugar de pertencimento. 
-            Aqui, cada pessoa é acolhida, cuidada e direcionada para cumprir seu propósito em Deus.
-            Acreditamos no poder da comunhão, no calor de uma família unida e na transformação que só o amor de Deus pode trazer.
+            A Igreja Vida na Rocha é mais que uma congregação — é um povo firmado em Cristo, acolhido pela graça
+            e enviado para transformar o mundo ao seu redor. Aqui, cada pessoa é parte viva do corpo de Cristo,
+            chamada a crescer, servir e brilhar.
           </p>
         </div>
       </section>
@@ -127,7 +143,7 @@ export default function HomePage() {
             <div>
               <img
                 src={pastorImg}
-                alt="Pr. Marcelo Barcellos"
+                alt="Bispo Leandro Zangarini"
                 className="rounded-2xl shadow-2xl w-full max-w-sm md:max-w-md mx-auto object-cover aspect-square"
                 loading="lazy"
                 width={800}
@@ -137,16 +153,14 @@ export default function HomePage() {
             <div>
               <p className="text-secondary font-semibold uppercase tracking-wider text-sm mb-3">Liderança Pastoral</p>
               <h2 className="font-display text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">
-                Pr. Marcelo Barcellos
+                Bispo Leandro Zangarini
               </h2>
-              <p className="opacity-80 leading-relaxed mb-4">
-                Com um chamado para pastorear famílias e levantar líderes, Pr. Marcelo Barcellos tem dedicado 
-                sua vida à expansão do Reino de Deus. Sua visão é construir uma igreja que acolhe, discipula 
-                e transforma vidas através do amor genuíno e da Palavra de Deus.
+              <p className="opacity-85 leading-relaxed mb-5">
+                Com um chamado claro de pastorear famílias e formar discípulos firmes na fé, o Bispo Leandro Zangarini
+                lidera a Igreja Vida na Rocha com paixão pela Palavra e amor pelas pessoas.
               </p>
-              <p className="opacity-80 leading-relaxed mb-6">
-                Sob sua autoridade pastoral, a Família Videira cresce como uma comunidade de fé viva, 
-                relevante e comprometida com o propósito divino.
+              <p className="font-quote text-lg md:text-2xl text-secondary leading-snug mb-6">
+                "A nossa força não vem do que construímos, mas da Rocha sobre a qual fomos edificados."
               </p>
               <div className="flex gap-3">
                 <a href="#" className="p-2.5 rounded-full bg-card/10 hover:bg-card/20 transition-colors">

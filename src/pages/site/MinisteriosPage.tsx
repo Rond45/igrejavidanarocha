@@ -5,11 +5,11 @@ import { Baby, Flame, Heart, Shield, Star, Music, BookOpen, HandHeart, Users } f
 const ministries = [
   { icon: Baby, name: "Ministério Infantil", desc: "Cuidamos das crianças com amor, ensino bíblico e atividades lúdicas, formando uma geração que conhece a Deus desde cedo.", leader: "Líder Maria Santos" },
   { icon: Flame, name: "Ministério de Jovens", desc: "Uma geração de fogo e propósito, com encontros dinâmicos, discipulado e eventos que transformam.", leader: "Líder Diego Martins" },
-  { icon: Heart, name: "Ministério de Casais", desc: "Fortalecendo matrimônios através da Palavra, aconselhamento e comunhão entre casais.", leader: "Pr. Marcelo e Pra. Ana" },
+  { icon: Heart, name: "Ministério de Casais", desc: "Fortalecendo matrimônios através da Palavra, aconselhamento e comunhão entre casais.", leader: "Bispo Leandro e Pra. Ana" },
   { icon: Shield, name: "Ministério de Homens", desc: "Formando homens de valor, integridade e liderança no lar, na igreja e na sociedade.", leader: "Dc. Roberto Silva" },
-  { icon: Star, name: "Ministério de Mulheres", desc: "Mulheres virtuosas, fortes e corajosas, crescendo juntas na fé e no amor.", leader: "Pra. Ana Barcellos" },
+  { icon: Star, name: "Ministério de Mulheres", desc: "Mulheres virtuosas, fortes e corajosas, crescendo juntas na fé e no amor.", leader: "Pra. Daniela Zangarini" },
   { icon: Music, name: "Ministério de Louvor", desc: "Adoração que transforma. Músicos e cantores consagrados levando a presença de Deus.", leader: "Líder Paula Santos" },
-  { icon: BookOpen, name: "Discipulado", desc: "Formação de discípulos maduros através do ensino sistemático da Palavra de Deus.", leader: "Pr. Marcelo Barcellos" },
+  { icon: BookOpen, name: "Discipulado", desc: "Formação de discípulos maduros através do ensino sistemático da Palavra de Deus.", leader: "Bispo Leandro Zangarini" },
   { icon: HandHeart, name: "Ação Social", desc: "Amor em ação na comunidade. Projetos sociais, campanhas e atendimento ao próximo.", leader: "Líder Fernanda Lima" },
   { icon: Users, name: "Intercessão", desc: "Guerreiros de oração que sustentam a igreja e as famílias diante do trono de Deus.", leader: "Líder Aparecida Souza" },
 ];

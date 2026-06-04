@@ -4,7 +4,7 @@ import {
   Grid3X3, HandHeart, CalendarDays, MessageSquare, Gift, BarChart3, Settings, Menu, X, LogOut
 } from "lucide-react";
 import { useState } from "react";
-import logoImg from "@/assets/logo-familia-videira.png";
+import logoImg from "@/assets/logo-vida-na-rocha-color.png";
 
 const menuItems = [
   { icon: LayoutDashboard, label: "Dashboard", path: "/admin" },
@@ -32,9 +32,9 @@ export default function AdminLayout() {
       {/* Sidebar */}
       <aside className={`fixed inset-y-0 left-0 z-50 w-64 bg-foreground text-card transform transition-transform lg:translate-x-0 ${sidebarOpen ? "translate-x-0" : "-translate-x-full"}`}>
         <div className="flex items-center gap-2 p-4 border-b border-card/10">
-          <img src={logoImg} alt="Família Videira" className="h-8 w-auto max-w-[120px]" />
+          <img src={logoImg} alt="Igreja Vida na Rocha" className="h-8 w-auto max-w-[120px]" />
           <div className="min-w-0">
-            <p className="font-display font-bold text-sm truncate">Família Videira</p>
+            <p className="font-display font-bold text-sm truncate">Igreja Vida na Rocha</p>
             <p className="text-[10px] opacity-50">Painel Administrativo</p>
           </div>
           <button onClick={() => setSidebarOpen(false)} className="lg:hidden ml-auto p-1 shrink-0"><X className="h-4 w-4" /></button>
