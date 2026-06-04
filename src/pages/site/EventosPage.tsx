@@ -2,13 +2,13 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Calendar, MapPin, Users } from "lucide-react";
 import { Link } from "react-router-dom";
-import pastorEvento from "@/assets/pastor-evento.jpg";
+import pastorEvento from "@/assets/bispo-leandro.jpg";
 
 const events = [
   {
     title: "A Noite do Extraordinário",
     date: "28 Junho 2026",
-    location: "Macapá, AP",
+    location: "São Paulo, SP",
     slots: null,
     desc: "Uma noite de poder, milagres e transformação com Bispo Leandro Zangarini. Venha viver o extraordinário de Deus!",
     image: pastorEvento,

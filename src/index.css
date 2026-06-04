@@ -66,9 +66,9 @@
     --sidebar-border: 180 25% 20%;
     --sidebar-ring: 25 41% 47%;
 
-    --font-display: 'Oswald', 'Inter', sans-serif;
-    --font-body: 'Inter', system-ui, sans-serif;
-    --font-quote: 'Cormorant Garamond', Georgia, serif;
+    --font-display: 'Montserrat', system-ui, sans-serif;
+    --font-body: 'Montserrat', system-ui, sans-serif;
+    --font-quote: 'Montserrat', system-ui, sans-serif;
   }
 
   .dark {
@@ -110,9 +110,9 @@
 }
 
 @layer utilities {
-  .font-display { font-family: var(--font-display); letter-spacing: 0.02em; }
+  .font-display { font-family: var(--font-display); letter-spacing: 0.01em; font-weight: 800; }
   .font-body    { font-family: var(--font-body); }
-  .font-quote   { font-family: var(--font-quote); font-style: italic; }
+  .font-quote   { font-family: var(--font-quote); font-style: italic; font-weight: 300; letter-spacing: 0.005em; }
 
   .text-gradient-primary {
     @apply bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent;

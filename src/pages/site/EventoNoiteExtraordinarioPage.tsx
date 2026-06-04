@@ -1,14 +1,14 @@
 import { Button } from "@/components/ui/button";
 import { Calendar, Clock, MapPin, Instagram, Facebook, Youtube, MessageCircle } from "lucide-react";
 import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel";
-import pastorImg from "@/assets/pastor-evento.jpg";
+import pastorImg from "@/assets/bispo-leandro.jpg";
 import salao1 from "@/assets/igreja-salao-1.jpg";
 import salao2 from "@/assets/igreja-salao-2.jpg";
 
 export default function EventoNoiteExtraordinarioPage() {
   const highlights = [
     { num: "01", title: "O Extraordinário", desc: "Aquilo que foge do natural, que rompe padrões e gera resultados que você não alcançaria sozinho." },
-    { num: "02", title: "Uma Palavra de Direção", desc: "Bispo Leandro Zangarini traz uma direção clara para essa noite em Macapá. Uma mensagem que pode mudar sua trajetória." },
+    { num: "02", title: "Uma Palavra de Direção", desc: "Bispo Leandro Zangarini traz uma direção clara para essa noite em São Paulo. Uma mensagem que pode mudar sua trajetória." },
     { num: "03", title: "Decisão e Avanço", desc: "Para quem entende que não pode continuar no mesmo nível e sabe que precisa avançar." },
     { num: "04", title: "Não perca este momento", desc: "Se você sente que precisa estar presente, não deixe para depois. Um encontro com Deus pode transformar tudo." },
   ];
@@ -30,7 +30,7 @@ export default function EventoNoiteExtraordinarioPage() {
 
               <h1 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-[0.95] mb-5">
                 A Noite do{" "}
-                <span className="block text-[#c9a84c] italic font-serif mt-1">Extraordinário</span>
+                <span className="block text-[#c9a84c] font-quote italic mt-1">Extraordinário</span>
               </h1>
 
               <p className="text-white/70 text-sm sm:text-base leading-relaxed mb-3">
@@ -38,7 +38,7 @@ export default function EventoNoiteExtraordinarioPage() {
               </p>
 
               <p className="text-white/50 text-xs sm:text-sm leading-relaxed mb-6">
-                Bispo Leandro Zangarini e a Igreja Igreja Vida na Rocha preparam uma noite especial em Macapá.
+                Bispo Leandro Zangarini e a Igreja Igreja Vida na Rocha preparam uma noite especial em São Paulo.
                 Uma palavra de direção para quem sabe que precisa avançar.
               </p>
 
@@ -46,7 +46,7 @@ export default function EventoNoiteExtraordinarioPage() {
                 {[
                   { icon: Calendar, label: "Sábado, 28 de Junho" },
                   { icon: Clock, label: "19h30" },
-                  { icon: MapPin, label: "Macapá, AP" },
+                  { icon: MapPin, label: "São Paulo, SP" },
                 ].map((item) => (
                   <span key={item.label} className="flex items-center gap-1.5 text-[11px] sm:text-xs text-white/70 border border-white/15 rounded-full px-3 py-1.5">
                     <item.icon className="h-3 w-3 sm:h-3.5 sm:w-3.5 text-[#c9a84c]" />
@@ -130,7 +130,7 @@ export default function EventoNoiteExtraordinarioPage() {
           <div className="mt-6 p-4 md:p-5 border border-white/10 rounded-xl bg-white/[0.02] text-center">
             <p className="text-white/60 text-xs sm:text-sm leading-relaxed">
               Culto aberto a toda a família — homens, mulheres, jovens e crianças são bem-vindos.{" "}
-              <strong className="text-white">Sábado, 28 de Junho · 19h30 · Macapá, AP.</strong>
+              <strong className="text-white">Sábado, 28 de Junho · 19h30 · São Paulo, SP.</strong>
             </p>
           </div>
         </div>
@@ -161,7 +161,7 @@ export default function EventoNoiteExtraordinarioPage() {
                     <div className="relative rounded-xl overflow-hidden aspect-video">
                       <img src={img} alt={`Salão da Igreja ${i + 1}`} className="w-full h-full object-cover" loading="lazy" />
                       <div className="absolute bottom-0 left-0 right-0 p-3 bg-gradient-to-t from-black/80 to-transparent">
-                        <p className="text-white/70 text-[10px]">Igreja Igreja Vida na Rocha — Macapá, AP</p>
+                        <p className="text-white/70 text-[10px]">Igreja Igreja Vida na Rocha — São Paulo, SP</p>
                       </div>
                     </div>
                   </CarouselItem>
@@ -176,7 +176,7 @@ export default function EventoNoiteExtraordinarioPage() {
               <div key={i} className="relative rounded-xl overflow-hidden aspect-video">
                 <img src={img} alt={`Salão da Igreja ${i + 1}`} className="w-full h-full object-cover" loading="lazy" />
                 <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
-                  <p className="text-white/70 text-xs">Igreja Igreja Vida na Rocha — Macapá, AP</p>
+                  <p className="text-white/70 text-xs">Igreja Igreja Vida na Rocha — São Paulo, SP</p>
                 </div>
               </div>
             ))}
@@ -190,7 +190,7 @@ export default function EventoNoiteExtraordinarioPage() {
           <div className="grid md:grid-cols-2 gap-8">
             {/* Left */}
             <div>
-              <p className="text-[#c9a84c] uppercase tracking-[0.2em] text-xs font-semibold mb-2">28 de Junho · Macapá, AP</p>
+              <p className="text-[#c9a84c] uppercase tracking-[0.2em] text-xs font-semibold mb-2">28 de Junho · São Paulo, SP</p>
               <h2 className="font-display text-xl sm:text-2xl md:text-3xl font-bold mb-3">
                 Não é apenas um culto.
               </h2>
@@ -217,7 +217,7 @@ export default function EventoNoiteExtraordinarioPage() {
               <div className="grid gap-3">
                 <div className="p-4 border border-white/10 rounded-xl bg-white/[0.02]">
                   <p className="text-[#c9a84c] text-[10px] uppercase tracking-wider mb-1">Endereço</p>
-                  <p className="text-white/70 text-xs">Macapá, AP <span className="text-white/40">(A confirmar)</span></p>
+                  <p className="text-white/70 text-xs">São Paulo, SP <span className="text-white/40">(A confirmar)</span></p>
                 </div>
                 <div className="grid grid-cols-2 gap-3">
                   <div className="p-4 border border-white/10 rounded-xl bg-white/[0.02]">
@@ -232,7 +232,7 @@ export default function EventoNoiteExtraordinarioPage() {
               </div>
 
               <a
-                href="https://maps.google.com/?q=Macapá,+AP"
+                href="https://maps.google.com/?q=São Paulo,+SP"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-[#c9a84c] hover:text-[#b8963f] text-xs transition-colors mt-3"
@@ -251,7 +251,7 @@ export default function EventoNoiteExtraordinarioPage() {
           <p className="text-[#c9a84c] uppercase tracking-[0.25em] text-xs font-semibold mb-2">Entrada Gratuita</p>
           <h2 className="font-display text-xl sm:text-2xl md:text-4xl font-bold mb-3">
             Viva o que é{" "}
-            <span className="text-[#c9a84c] italic font-serif">fora do comum</span>
+            <span className="text-[#c9a84c] font-quote italic">fora do comum</span>
           </h2>
           <p className="text-white/50 text-xs sm:text-sm leading-relaxed mb-6 max-w-lg mx-auto">
             Confirme sua presença e venha para A Noite do Extraordinário. Uma direção de Deus pode mudar tudo em um único momento.
@@ -261,7 +261,7 @@ export default function EventoNoiteExtraordinarioPage() {
             Confirmar Presença
           </Button>
           <p className="text-white/30 text-[10px]">
-            Entrada gratuita · Macapá, AP · 28 de Junho · 19h30
+            Entrada gratuita · São Paulo, SP · 28 de Junho · 19h30
           </p>
         </div>
       </section>
