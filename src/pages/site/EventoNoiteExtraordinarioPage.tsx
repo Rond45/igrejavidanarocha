@@ -8,7 +8,7 @@ import salao2 from "@/assets/igreja-salao-2.jpg";
 export default function EventoNoiteExtraordinarioPage() {
   const highlights = [
     { num: "01", title: "O Extraordinário", desc: "Aquilo que foge do natural, que rompe padrões e gera resultados que você não alcançaria sozinho." },
-    { num: "02", title: "Uma Palavra de Direção", desc: "Pr. Marcelo Barcellos traz uma direção clara para essa noite em Macapá. Uma mensagem que pode mudar sua trajetória." },
+    { num: "02", title: "Uma Palavra de Direção", desc: "Bispo Leandro Zangarini traz uma direção clara para essa noite em Macapá. Uma mensagem que pode mudar sua trajetória." },
     { num: "03", title: "Decisão e Avanço", desc: "Para quem entende que não pode continuar no mesmo nível e sabe que precisa avançar." },
     { num: "04", title: "Não perca este momento", desc: "Se você sente que precisa estar presente, não deixe para depois. Um encontro com Deus pode transformar tudo." },
   ];
@@ -38,7 +38,7 @@ export default function EventoNoiteExtraordinarioPage() {
               </p>
 
               <p className="text-white/50 text-xs sm:text-sm leading-relaxed mb-6">
-                Pr. Marcelo Barcellos e a Igreja Família Videira preparam uma noite especial em Macapá.
+                Bispo Leandro Zangarini e a Igreja Igreja Vida na Rocha preparam uma noite especial em Macapá.
                 Uma palavra de direção para quem sabe que precisa avançar.
               </p>
 
@@ -67,7 +67,7 @@ export default function EventoNoiteExtraordinarioPage() {
             <div className="relative order-1 md:order-2 h-[50vh] md:h-auto">
               <img
                 src={pastorImg}
-                alt="Pr. Marcelo Barcellos"
+                alt="Bispo Leandro Zangarini"
                 className="w-full h-full object-cover object-top"
               />
               {/* Subtle gradient only at edges for blending */}
@@ -161,7 +161,7 @@ export default function EventoNoiteExtraordinarioPage() {
                     <div className="relative rounded-xl overflow-hidden aspect-video">
                       <img src={img} alt={`Salão da Igreja ${i + 1}`} className="w-full h-full object-cover" loading="lazy" />
                       <div className="absolute bottom-0 left-0 right-0 p-3 bg-gradient-to-t from-black/80 to-transparent">
-                        <p className="text-white/70 text-[10px]">Igreja Família Videira — Macapá, AP</p>
+                        <p className="text-white/70 text-[10px]">Igreja Igreja Vida na Rocha — Macapá, AP</p>
                       </div>
                     </div>
                   </CarouselItem>
@@ -176,7 +176,7 @@ export default function EventoNoiteExtraordinarioPage() {
               <div key={i} className="relative rounded-xl overflow-hidden aspect-video">
                 <img src={img} alt={`Salão da Igreja ${i + 1}`} className="w-full h-full object-cover" loading="lazy" />
                 <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
-                  <p className="text-white/70 text-xs">Igreja Família Videira — Macapá, AP</p>
+                  <p className="text-white/70 text-xs">Igreja Igreja Vida na Rocha — Macapá, AP</p>
                 </div>
               </div>
             ))}
@@ -287,7 +287,7 @@ export default function EventoNoiteExtraordinarioPage() {
               </a>
             ))}
           </div>
-          <p className="text-white/20 text-[9px] mt-3">Igreja Família Videira</p>
+          <p className="text-white/20 text-[9px] mt-3">Igreja Igreja Vida na Rocha</p>
         </div>
       </section>
     </div>

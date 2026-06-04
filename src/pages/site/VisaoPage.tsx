@@ -15,7 +15,7 @@ export default function VisaoPage() {
         <div className="container-site text-center max-w-3xl mx-auto">
           <h1 className="font-display text-4xl md:text-5xl font-bold mb-6">Nossa Visão e Propósito</h1>
           <p className="text-lg opacity-80">
-            O direcionamento espiritual e ministerial que guia cada passo da Família Videira.
+            O direcionamento espiritual e ministerial que guia cada passo da Igreja Vida na Rocha.
           </p>
         </div>
       </section>

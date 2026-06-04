@@ -52,7 +52,7 @@ export default function ContatoPage() {
                   <div className="p-2.5 rounded-xl bg-primary/10 text-primary"><Mail className="h-5 w-5" /></div>
                   <div>
                     <p className="font-semibold text-foreground">E-mail</p>
-                    <p className="text-sm text-muted-foreground">contato@familiavideira.com</p>
+                    <p className="text-sm text-muted-foreground">contato@vidanarocha.com</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">

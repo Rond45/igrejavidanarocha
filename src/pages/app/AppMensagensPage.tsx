@@ -2,10 +2,10 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Play } from "lucide-react";
 
 const messages = [
-  { title: "A Videira e os Ramos", speaker: "Pr. Marcelo", date: "30 Mar", cat: "Vida Cristã" },
-  { title: "O Poder da Comunhão", speaker: "Pr. Marcelo", date: "23 Mar", cat: "Igreja" },
-  { title: "Fé que Move", speaker: "Pr. Marcelo", date: "16 Mar", cat: "Fé" },
-  { title: "Família: Projeto de Deus", speaker: "Pr. Marcelo", date: "9 Mar", cat: "Família" },
+  { title: "A Videira e os Ramos", speaker: "Bispo Leandro", date: "30 Mar", cat: "Vida Cristã" },
+  { title: "O Poder da Comunhão", speaker: "Bispo Leandro", date: "23 Mar", cat: "Igreja" },
+  { title: "Fé que Move", speaker: "Bispo Leandro", date: "16 Mar", cat: "Fé" },
+  { title: "Família: Projeto de Deus", speaker: "Bispo Leandro", date: "9 Mar", cat: "Família" },
 ];
 
 export default function AppMensagensPage() {

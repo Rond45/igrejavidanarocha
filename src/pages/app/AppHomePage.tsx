@@ -9,7 +9,7 @@ export default function AppHomePage() {
       {/* Banner */}
       <div className="rounded-2xl bg-primary text-primary-foreground p-5">
         <p className="text-xs uppercase tracking-wider opacity-70 mb-1">Bem-vindo à</p>
-        <h1 className="font-display text-2xl font-bold mb-2">Família Videira</h1>
+        <h1 className="font-display text-2xl font-bold mb-2">Igreja Vida na Rocha</h1>
         <p className="text-sm opacity-80">Conectados pela fé, unidos pelo amor.</p>
       </div>
 
@@ -85,7 +85,7 @@ export default function AppHomePage() {
             </div>
             <div className="p-4">
               <p className="font-display font-bold text-foreground">A Videira e os Ramos</p>
-              <p className="text-xs text-muted-foreground">Pr. Marcelo Barcellos · 30 Mar 2026</p>
+              <p className="text-xs text-muted-foreground">Bispo Leandro Zangarini · 30 Mar 2026</p>
             </div>
           </CardContent>
         </Card>

@@ -8,7 +8,7 @@ import {
   BookOpen, HandHeart, Shield, Flame, Star, Instagram, Facebook, Youtube
 } from "lucide-react";
 import heroImg from "@/assets/hero-worship.jpg";
-import pastorImg from "@/assets/pastor-marcelo.png";
+import pastorImg from "@/assets/bispo-leandro.jpg";
 
 const ministries = [
   { icon: Baby, name: "Crianças", desc: "Ministério infantil com amor e cuidado" },
@@ -79,7 +79,7 @@ export default function HomePage() {
             Uma família conectada <span className="italic text-primary">pela fé</span>
           </h2>
           <p className="text-muted-foreground leading-relaxed text-base md:text-lg">
-            A Família Videira é mais do que uma igreja — é um lugar de pertencimento. 
+            A Igreja Vida na Rocha é mais do que uma igreja — é um lugar de pertencimento. 
             Aqui, cada pessoa é acolhida, cuidada e direcionada para cumprir seu propósito em Deus.
             Acreditamos no poder da comunhão, no calor de uma família unida e na transformação que só o amor de Deus pode trazer.
           </p>
@@ -127,7 +127,7 @@ export default function HomePage() {
             <div>
               <img
                 src={pastorImg}
-                alt="Pr. Marcelo Barcellos"
+                alt="Bispo Leandro Zangarini"
                 className="rounded-2xl shadow-2xl w-full max-w-sm md:max-w-md mx-auto object-cover aspect-square"
                 loading="lazy"
                 width={800}
@@ -137,15 +137,15 @@ export default function HomePage() {
             <div>
               <p className="text-secondary font-semibold uppercase tracking-wider text-sm mb-3">Liderança Pastoral</p>
               <h2 className="font-display text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">
-                Pr. Marcelo Barcellos
+                Bispo Leandro Zangarini
               </h2>
               <p className="opacity-80 leading-relaxed mb-4">
-                Com um chamado para pastorear famílias e levantar líderes, Pr. Marcelo Barcellos tem dedicado 
+                Com um chamado para pastorear famílias e levantar líderes, Bispo Leandro Zangarini tem dedicado 
                 sua vida à expansão do Reino de Deus. Sua visão é construir uma igreja que acolhe, discipula 
                 e transforma vidas através do amor genuíno e da Palavra de Deus.
               </p>
               <p className="opacity-80 leading-relaxed mb-6">
-                Sob sua autoridade pastoral, a Família Videira cresce como uma comunidade de fé viva, 
+                Sob sua autoridade pastoral, a Igreja Vida na Rocha cresce como uma comunidade de fé viva, 
                 relevante e comprometida com o propósito divino.
               </p>
               <div className="flex gap-3">

@@ -10,7 +10,7 @@ const events = [
     date: "28 Junho 2026",
     location: "Macapá, AP",
     slots: null,
-    desc: "Uma noite de poder, milagres e transformação com Pr. Marcelo Barcellos. Venha viver o extraordinário de Deus!",
+    desc: "Uma noite de poder, milagres e transformação com Bispo Leandro Zangarini. Venha viver o extraordinário de Deus!",
     image: pastorEvento,
     link: "/eventos/noite-do-extraordinario",
     featured: true,
