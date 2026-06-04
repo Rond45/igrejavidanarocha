@@ -625,7 +625,36 @@ export type Database = {
       }
     }
     Views: {
-      [_ in never]: never
+      prayer_requests_public: {
+        Row: {
+          city: string | null
+          created_at: string | null
+          id: string | null
+          name: string | null
+          request: string | null
+          status: string | null
+          urgency: string | null
+        }
+        Insert: {
+          city?: string | null
+          created_at?: string | null
+          id?: string | null
+          name?: string | null
+          request?: string | null
+          status?: string | null
+          urgency?: string | null
+        }
+        Update: {
+          city?: string | null
+          created_at?: string | null
+          id?: string | null
+          name?: string | null
+          request?: string | null
+          status?: string | null
+          urgency?: string | null
+        }
+        Relationships: []
+      }
     }
     Functions: {
       [_ in never]: never
