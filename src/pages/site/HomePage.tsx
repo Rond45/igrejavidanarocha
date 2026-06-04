@@ -155,14 +155,12 @@ export default function HomePage() {
               <h2 className="font-display text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">
                 Bispo Leandro Zangarini
               </h2>
-              <p className="opacity-80 leading-relaxed mb-4">
-                Com um chamado para pastorear famílias e levantar líderes, Bispo Leandro Zangarini tem dedicado 
-                sua vida à expansão do Reino de Deus. Sua visão é construir uma igreja que acolhe, discipula 
-                e transforma vidas através do amor genuíno e da Palavra de Deus.
+              <p className="opacity-85 leading-relaxed mb-5">
+                Com um chamado claro de pastorear famílias e formar discípulos firmes na fé, o Bispo Leandro Zangarini
+                lidera a Igreja Vida na Rocha com paixão pela Palavra e amor pelas pessoas.
               </p>
-              <p className="opacity-80 leading-relaxed mb-6">
-                Sob sua autoridade pastoral, a Igreja Vida na Rocha cresce como uma comunidade de fé viva, 
-                relevante e comprometida com o propósito divino.
+              <p className="font-quote text-lg md:text-2xl text-secondary leading-snug mb-6">
+                "A nossa força não vem do que construímos, mas da Rocha sobre a qual fomos edificados."
               </p>
               <div className="flex gap-3">
                 <a href="#" className="p-2.5 rounded-full bg-card/10 hover:bg-card/20 transition-colors">
