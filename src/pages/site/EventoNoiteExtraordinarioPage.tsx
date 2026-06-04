@@ -30,7 +30,7 @@ export default function EventoNoiteExtraordinarioPage() {
 
               <h1 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-[0.95] mb-5">
                 A Noite do{" "}
-                <span className="block text-[#c9a84c] italic font-serif mt-1">Extraordinário</span>
+                <span className="block text-[#c9a84c] font-quote italic mt-1">Extraordinário</span>
               </h1>
 
               <p className="text-white/70 text-sm sm:text-base leading-relaxed mb-3">
@@ -251,7 +251,7 @@ export default function EventoNoiteExtraordinarioPage() {
           <p className="text-[#c9a84c] uppercase tracking-[0.25em] text-xs font-semibold mb-2">Entrada Gratuita</p>
           <h2 className="font-display text-xl sm:text-2xl md:text-4xl font-bold mb-3">
             Viva o que é{" "}
-            <span className="text-[#c9a84c] italic font-serif">fora do comum</span>
+            <span className="text-[#c9a84c] font-quote italic">fora do comum</span>
           </h2>
           <p className="text-white/50 text-xs sm:text-sm leading-relaxed mb-6 max-w-lg mx-auto">
             Confirme sua presença e venha para A Noite do Extraordinário. Uma direção de Deus pode mudar tudo em um único momento.
